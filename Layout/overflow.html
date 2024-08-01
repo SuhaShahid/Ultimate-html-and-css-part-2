@@ -6,21 +6,100 @@
     <title>Overflow</title>
 </head>
 <body>
-    <div class="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
-        </p>
+    <div class="container">
+        <div class="nav-bar">
+            <span>Home</span>
+            <span>About us</span>
+        </div>
     </div>
 
+    <div class="container1">
+        <h3 style="margin: 0;">Overflow Technique</h3>
+        <div class=" box box1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+            </p>
+        </div>
+        <div class="box box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+            </p>
+        </div>
+        <div class="box box3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+            </p>
+        </div>
+        <div class="box box4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit temporibus facere, optio eveniet expedita mollitia natus. Asperiores alias similique porro?
+            </p>
+        </div>
+    </div>
+   <div class="container2">
+        <div class="footer">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus modi, itaque quod harum fugiat
+                voluptas numquam nemo ipsum laudantium incidunt accusamus molestias.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus modi, itaque quod harum fugiat
+                voluptas numquam nemo ipsum laudantium incidunt accusamus molestias.
+            </p>
+        </div>
+   </div>
     <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: rgb(164, 177, 173);
+            height: 40vh;
+            width: 100%;
+            display:flex;
+        }
+        .container1{
+            margin: 0;
+            padding: 0;
+            background: rgb(180, 211, 223);
+            height: auto;
+        }
         .box{
             height: 200px;
-            width: 150px;
-            border: 2px solid bisque;
+            width: 200px;
+            border: 2px solid rgb(64, 76, 154);
+            padding: 0 10px;
+            display: inline-block;
+        }
+        .box1{
             overflow: auto;
-            padding: 3px;
+        }
+        .box2{
+            overflow: hidden;
+        }
+        .box3{
+            overflow: scroll;
+        }
+        .box4{
+            overflow: visible;
+        }
+        .container2{
+            background: khaki;
+            height: 200px;
+            width: 100%;
+            
+        }
+        .container2 p{
+            padding: 0;
+            margin: 0;
         }
     </style>
 </body>
