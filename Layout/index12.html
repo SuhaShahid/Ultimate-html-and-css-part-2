@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModel</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque.</p>
+
+    <!-- span is an inline element and u wont be able to give it a width and height 
+     to give it height or width u have to set the display to inline-block which will make it inline and 
+     block too  -->
+     
+    <div class="box">
+
+    </div>
+    <style>
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }
+        body ,html{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background: rgb(152, 142, 122);
+            height: 200px;
+            width: 200px;
+            
+        }
+        p{
+            padding: 10px 20px 10px 20px;
+            /* padding: 10px 20px 10px; trbl */
+        }
+    </style>
+</body>
+</html>
