@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box-one">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sequi obcaecati impedit repellat ducimus voluptates 
+                vero harum adipisci repellendus perspiciatis ipsa animi ea accusamus velit doloremque atque, autem aperiam corporis?
+            </p>
+        </div>
+        <div class="box-two">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sequi obcaecati impedit repellat ducimus voluptates 
+                vero harum adipisci repellendus perspiciatis ipsa animi ea accusamus velit doloremque atque, autem aperiam corporis?
+            </p>
+        </div>
+    </div>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .box-one{
+            background: skyblue;
+            padding: 1rem;
+        }
+        .box-two{
+            background: pink;
+            padding: 1rem;
+        }
+        @media screen and (min-width:600px) {
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media {
+            body{
+                font-size: 14pt;
+            }
+        }
+    </style>
+</body>
+</html>
