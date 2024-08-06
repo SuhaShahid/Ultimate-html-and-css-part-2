@@ -1,0 +1,57 @@
+
+        body{
+            padding: 1rem;
+        }
+        form{
+            border: 1px solid black;
+            padding: 1rem;
+            width: fit-content;
+        }
+        input[type="text"]{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 0.5rem 0.7rem;
+        }
+        input[type="text"]:focus{
+            outline: 0;
+            border: 1px solid rgb(116, 116, 223);
+        }
+        .input-name{
+            margin: 0.5rem 0;
+        }
+        #courses{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 0.5rem 4.2rem;
+        }
+        #review{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 0.5rem 0;
+            font-size: 14px;
+        }
+        label{
+            display: block;
+            font-size: 14px;
+            margin-bottom: 0.2rem;
+        }
+        .buttons{
+            align-items: center;
+        }
+        button{
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            outline: 0;
+            background-color: rgb(63, 63, 211);
+            color: aliceblue;
+        }
+        #front-end {
+            display: inline;
+        }
+        #back-end{
+            display: inline;
+        }
+       #silver{
+        display: inline;
+       }
