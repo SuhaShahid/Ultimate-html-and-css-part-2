@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box ,.container  {
+    width: 100px;
+    height: 100px;
+    background: rgb(135, 135, 192);
+}
+.box:hover{
+    transform: rotate(140deg);
+    transform: scale(1.5);
+    transform: skew(14deg);
+    transform: translate(10px ,10px);
+}
+.container:hover{
+    transform: perspective(200px) rotateZ(45deg);
+}
+.animations-box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(44, 62, 62);
+    animation-name: pop;
+    animation-duration: 5s;
+}
+@keyframes pop{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.3);
+    }
+    50%{
+        transform:rotate(45deg) ;
+        background: teal;
+    }
+    75%{
+        transform: skew(14deg);
+        background-color: aquamarine;
+    }
+    100%{
+        transform: rotate(0deg);
+        background: teal;
+    }
+}
